@@ -96,7 +96,7 @@ docker build -t mvcrandomanswers .
 ```
 
 This command will build the new image using the instructions in your
-Dockerfile, naming (-t tagging) the image as mvcrandomanswers. This may include pulling the base image from [Docker Hub](http://hub.docker.com),
+Dockerfile, naming (-t tagging) the image as mvcrandomanswers. This may include pulling the base image from [Docker Hub](https://hub.docker.com),
 and then adding your app to that image.
 
 Once that command completes, you can run the `docker images` command
